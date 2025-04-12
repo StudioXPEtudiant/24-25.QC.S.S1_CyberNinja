@@ -37,6 +37,8 @@ namespace Unity.FPS.AI
         const string k_AnimAttackParameter = "Attack";
         const string k_AnimOnDamagedParameter = "OnDamaged";
 
+
+       
         protected virtual void Start()
         {
             m_ActorsManager = FindObjectOfType<ActorsManager>();
